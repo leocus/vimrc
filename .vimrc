@@ -22,17 +22,11 @@ call plug#begin('~/.vim/plugged')
 " used Bundle instead of Plugin)
 Plug 'tmhedberg/SimpylFold'
 Plug 'vim-scripts/indentpython.vim'
-" Bule 'Valloric/YouCompleteMe'
-" Plin 'vim-syntastic/syntastic'
 Plug 'nvie/vim-flake8'
-" Plug 'jnurmine/Zenburn'
 Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'kien/ctrlp.vim'
-" Plin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plug 'SirVer/ultisnips'
-" Plug 'voldikss/vim-floaterm'
 Plug 'honza/vim-snippets'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-fugitive'
@@ -45,14 +39,11 @@ Plug 'kdheepak/lazygit.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'iamcco/markdown-preview.nvim'
-" Plug 'huggingface/hfcc.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'ishchow/nvim-deardiary'
-" Plug '/Users/leonardocustode/workspace/codeassistant.vim'
 Plug 'leocus/codeassistant.vim'
 Plug 'sainnhe/everforest'
-Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 
 
 call plug#end()
@@ -357,3 +348,7 @@ tmap <C-h> <C-\><C-n><C-w>h
 tmap <C-j> <C-\><C-n><C-w>j
 tmap <C-k> <C-\><C-n><C-w>k
 tmap <C-l> <C-\><C-n><C-w>l
+nmap <C-h> <C-\><C-n><C-w>h
+nmap <C-j> <C-\><C-n><C-w>j
+nmap <C-k> <C-\><C-n><C-w>k
+nmap <C-l> <C-\><C-n><C-w>l
